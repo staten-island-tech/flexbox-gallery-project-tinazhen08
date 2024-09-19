@@ -8,25 +8,29 @@ body,
 }
 
 body{
-  background-image: url("img/background.webp");
+  font-family: "Montserrat Alternates", sans-serif;
+  background-image: url("img/background.jpg");
 }
 .header{
   font-size: 60px;
+  color:black;
+  margin-top:30px;
 }
 .container{
-  width: 90vw;
+  width: 100%;
   margin-top: 30px;
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .card{
-  height: auto;
+  height: 650px;
   width: 30%;
   min-width: 500px;
   border: 10px solid white;
-  border-radius: 3px;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,12 +46,12 @@ body{
   object-fit: cover;
   border-radius: 3px;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .card-header{
-  font-size: 30px;
-  margin-top: 20px;
+  font-size: 40px;
+  margin-top: 30px;
   text-align: center;
   color: white;
 }
