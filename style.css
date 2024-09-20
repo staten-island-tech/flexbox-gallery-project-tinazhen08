@@ -15,36 +15,38 @@ body{
   font-size: 60px;
   color:black;
   margin-top:30px;
+  text-align: center;
+  justify-content: space-around;
 }
 .container{
-  width: 100%;
-  margin-top: 30px;
+  width: 90vw;
+  margin: 2rem auto;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .card{
-  height: 650px;
+  height: 40rem;
   width: 30%;
-  min-width: 500px;
-  border: 10px solid white;
-  border-radius: 10px;
+  min-width: 450px;
+  border: 20px solid white;
+  border-radius: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  margin: 1rem auto;
+  margin: 2rem auto;
   background-color: rgb(168, 186, 219);
   background-size: cover;
 }
 
 .card-img{
   width: 75%;
-  height: 80%;
+  height: 450px;
   object-fit: cover;
-  border-radius: 3px;
+  border-radius: 20px;
   margin-top: 10px;
   margin-bottom: 30px;
 }
@@ -54,4 +56,19 @@ body{
   margin-top: 30px;
   text-align: center;
   color: white;
+}
+
+@media screen and (max-width: 900){
+  .card{
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 400){
+  .card{
+    width: 100%;
+  }
+  .container{
+    flex-direction: column;
+  }
 }
