@@ -30,6 +30,7 @@ body {
   height: 40rem;
   width: 30%;
   min-width: 310px;
+  /* max-width: 500px; creates 4x3 grid*/
   border: 20px solid white;
   box-shadow: 10px 10px rgb(99, 120, 133);
   border-radius: 25px;
@@ -53,7 +54,7 @@ body {
 
 .card-header {
   font-size: 40px;
-  margin-top: 30px;
+  margin-top: 20px;
   text-align: center;
   color: white;
 }
