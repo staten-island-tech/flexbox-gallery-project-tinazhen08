@@ -45,7 +45,7 @@ body {
 
 .card-img {
   width: 75%;
-  height: 475px;
+  height: 80%;
   object-fit: cover;
   border-radius: 20px;
   margin-top: 10px;
