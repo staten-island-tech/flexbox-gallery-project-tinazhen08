@@ -23,14 +23,13 @@ body {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .card {
   height: 40rem;
-  width: 30%;
+  width: 23%;
   min-width: 310px;
-  /* max-width: 500px; creates 4x3 grid*/
   border: 20px solid white;
   box-shadow: 10px 10px rgb(99, 120, 133);
   border-radius: 25px;
@@ -38,9 +37,11 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  margin: 2rem auto;
+  margin-bottom: 35px;
   background-color: rgb(168, 186, 219);
   background-size: cover;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .card-img {
