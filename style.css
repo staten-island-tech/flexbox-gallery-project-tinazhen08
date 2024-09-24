@@ -39,9 +39,6 @@ body {
   justify-content: space-evenly;
   margin-bottom: 35px;
   background-color: rgb(168, 186, 219);
-  background-size: cover;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
 }
 
 .card-img {
@@ -60,13 +57,18 @@ body {
   color: white;
 }
 
-@media screen and (max-width: 900) {
+.card:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 1200px) {
   .card {
     width: 45%;
   }
 }
 
-@media screen and (max-width: 400) {
+@media screen and (max-width: 400px) {
   .card {
     width: 100%;
   }
