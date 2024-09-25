@@ -68,7 +68,6 @@ body {
   object-fit: cover;
   margin-top: 10px;
   margin-bottom: 30px;
-  transform: all 0.3s;
   outline-offset: 1rem;
   display: inline-block;
   vertical-align: middle;
