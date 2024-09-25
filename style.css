@@ -25,7 +25,6 @@ body {
   transition-duration: 0.5s;
 }
 .container {
-  width: 100vw;
   margin: 2rem auto;
   display: flex;
   align-items: center;
